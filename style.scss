@@ -91,6 +91,7 @@ p{
 .home{
 	position: relative;
 	height: 950px;
+	overflow-x: hidden;
 
 	header{
 		position: relative;
@@ -100,7 +101,6 @@ p{
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			overflow-x: hidden;
 
 			.logo{
 				display: inline-block;
@@ -288,6 +288,8 @@ p{
 		display: block;
 		margin-left: auto;
 		justify-content: center;
+
+		overflow-x: hidden;
 
 		}
 		

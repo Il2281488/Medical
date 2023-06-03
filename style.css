@@ -36,6 +36,7 @@ p {
 .home {
   position: relative;
   height: 950px;
+  overflow-x: hidden;
 }
 .home header {
   position: relative;
@@ -58,7 +59,6 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  overflow-x: hidden;
 }
 .home header .header_inner .logo {
   display: inline-block;
@@ -253,6 +253,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow-x: hidden;
 }
 .home .home_inner .text_flex {
   position: relative;
